@@ -34,7 +34,7 @@ def predict():
     #return result
 
     # send back to browser
-    output = {'results': str(recommended_movies[0])}
+    output = {'results': recommended_movies}
 
     return output
 
